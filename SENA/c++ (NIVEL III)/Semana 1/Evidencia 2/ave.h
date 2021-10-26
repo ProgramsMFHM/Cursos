@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+//Clase ave
 class ave{
     private:
         string colorDePlumas;

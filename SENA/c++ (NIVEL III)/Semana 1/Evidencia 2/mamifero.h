@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+//Clase mamifero
 class mamifero{
     private:
         string colorDePelo;

@@ -1,6 +1,6 @@
-#include "mamifero.h"
-#include "ave.h"
-#include "reptil.h"
+#include "mamifero.h" //Agregando la clase mamifero y la función mostrar mamífero.
+#include "ave.h" //Agregando la clase ave y la función mostrar ave.
+#include "reptil.h" //Agregando la clase reptil y la función mostrar reptil.
 #include <iostream>
 using namespace std;
 
@@ -89,11 +89,11 @@ int main(){
     }
     for (int i = 0; i < cantidadDeAves; i++){
         mostrar_ave(aves[i]);
-        cout<<endl;
+        cout<<endl<<endl;
     }
     for (int i = 0; i < CantidadDeReptiles; i++){
         mostrar_reptil(reptiles[i]);
-        cout<<endl;
+        cout<<endl<<endl;
     }
 
     return 0;
