@@ -1,4 +1,12 @@
-# "Desarrollo de un programa usando clases y objetos en C++"
+# Uso de clases, objetos, métodos y archivos secuenciales en POO con lenguaje de programación C++ (NIVEL III)
+## Uniad 1:
+
+En esta unidad se trabajarán los temas de OOP:
+- Creación y uso de clases y objetos
+
+En esta unidad habrá un único trabajo que se muestra a continuación:
+
+## "Desarrollo de un programa usando clases y objetos en C++"
 
 Se requiere un programa que permita agregar objetos de tipo “animal” con sus respectivas  propiedades y metodos para cambiarlas. Se debe permitir ingresar minimo los siguientes animales:
 
