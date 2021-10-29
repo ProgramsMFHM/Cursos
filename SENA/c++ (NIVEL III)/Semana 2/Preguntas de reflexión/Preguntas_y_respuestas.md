@@ -1,0 +1,2 @@
+# ¿Qué ventajas encuentra al poder realizar múltiples acciones  con  los  datos  de  un  objeto  a  través  de  un  único  nombre  pero  con  diferentes parámetros de funcionamiento?
+Esto, a lo que se le llama sobrecarga es útil principalemente a la hora de ahorrar el trabajo de la creación de múltiples nombres para distintos métodos que hacen ecencialmente lo mismo.
