@@ -78,11 +78,3 @@ class aplicación{
         `)
     }
 }
-
-const whatsapp = new aplicación ("104.000", "4.8", "60mb");
-
-whatsapp.instalar();
-whatsapp.abrir();
-whatsapp.cerrar();
-whatsapp.mostrarInfo();
-whatsapp.desinstalar();

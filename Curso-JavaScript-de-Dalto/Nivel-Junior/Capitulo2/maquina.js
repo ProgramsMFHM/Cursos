@@ -1,7 +1,9 @@
 let entradaGratis = false;
 
-const validarEntrada = (hora) =>{
-    let edad = prompt("¿Cuántos años tienes?")
+const validarEntrada = () =>{
+
+    let hora = prompt("¿Qué hora es? (Use formato 24 horas): ");
+    let edad = prompt("¿Cuántos años tienes?");
 
     if(edad<18){
         alert(`Lo siento, eres menor de edad, tienes que esperar ${18-edad} años para poder entrar`);
@@ -16,5 +18,3 @@ const validarEntrada = (hora) =>{
         }
     }
 }
-
-validarEntrada(prompt("¿Qué hora es? (Use formato 24 horas): "));

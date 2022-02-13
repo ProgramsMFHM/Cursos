@@ -90,7 +90,3 @@ const mostrarTodosLosEstudiantes = () => {
 }
 
 let Estudiantes = [];
-
-agregarEstudiante();
-
-mostrarTodosLosEstudiantes();
