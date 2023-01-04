@@ -1,4 +1,4 @@
-# La vida de Cofla: capítulo 1.
+# La vida de Cofla: capítulo 7.
 
 ## Comprar un PC.
 Después de aprobar Cofla se compra una mejor computadora para poder hacer todo de manera más práctica pero el problema viene a la hora de nescesitar una resolución más optima para poder programar mejor.
