@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(134, 239, 129);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor{
+    width: max-content;
+    display: grid;
+    grid-template-columns: repeat(4,minmax(min-content,max-content));
+    text-align: center;
+    grid-auto-rows: 50px;
+}
+
+.contenedor div{
+    padding: 30px;
+    border-bottom: 3px solid black;
+}
+
+.header{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.env{
+    margin-top: 20px;
+    padding: 20px;
+    
+}

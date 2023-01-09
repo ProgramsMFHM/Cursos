@@ -1,0 +1,81 @@
+body{
+    background-color: rgba(0, 105, 117, 0.913);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    font-size: 70px;
+    padding: 30px;
+}
+
+#formulario-recuperación{
+    place-self: center;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.campo{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.campo label{
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.campo input{
+    background-color: rgba(2, 67, 75, 0.913);
+    padding: 15px;
+    border: inset rgba(101, 150, 156, 0.913); 
+    color: white;
+}
+
+.campo input:focus{
+    background-color: rgba(1, 37, 42, 0.913);
+    outline: none;
+    transition: background-color 0.3s linear;
+}
+
+.enviar{
+    width: 80%;
+    place-self: center;
+    padding: 25px;
+    color: white;
+    background-color: rgba(1, 37, 42, 0.913);
+    border: inset rgba(101, 150, 156, 0.913);
+    font-size: 25px;
+}
+
+.enviar:hover{
+    background-color: rgba(2, 67, 75, 0.913);
+    cursor: pointer;
+    transition: background-color 0.3s linear;
+}
+
+.enviar:focus{
+    outline: none;
+}
+
+.mensaje{
+    margin-top: 0px;
+    margin-bottom: 40px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
