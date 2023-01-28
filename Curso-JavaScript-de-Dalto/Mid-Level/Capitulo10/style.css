@@ -1,0 +1,94 @@
+body{
+    color: #333;
+    font-family: sans-serif;
+}
+
+.formulario-notas{
+    margin: 50px 15%;
+    text-align: center;
+    background-color: #48e;
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.formulario-notas h2{
+    margin: 0;
+    flex-grow: 1;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.formulario-notas input{
+    width: 50px;
+    border: none;
+}
+
+
+#enviar-nota{
+    flex-grow: 1;
+    color: #48e;
+    background-color: #fff;
+}
+
+.verde{
+    color: green;
+    font-weight: bold;
+}
+
+.rojo{
+    color: red;
+    font-weight: bold;
+}
+
+.contenedor{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal{
+    background-color: #fff;
+    width: 75%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+.modal h3{
+    font-size: 50px;
+}
+
+.modal p{
+    font-size: 25px;
+}
+
+@keyframes aparecer {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes desaparecer {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}

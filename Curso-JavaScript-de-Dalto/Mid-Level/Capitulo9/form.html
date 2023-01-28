@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="formstyle.css">
+</head>
+<body>
+
+    <h1>Formulario para recuperar materias</h1>
+
+    <form autocomplete="off" id="formulario-recuperación">
+
+        <div class="campo">
+            <label for="nombre">Nombre:</label>
+            <input id="nombre" type="text" placeholder="Nombre Completo" required>
+        </div>
+
+        <div class="campo">
+            <label for="mail">Correo Electrónico:</label>
+            <input id="mail" type="email" placeholder="Email@ejemlpo.com" required>
+        </div>
+
+        <div class="campo">
+            <label for="materia">Materia</label>
+            <input id="materia" type="text" placeholder="Materia a recuperar" required>
+        </div>
+
+        <p class="mensaje"></p>
+
+        <input type="submit" value="Enviar Solicitud" class="enviar">
+
+    </form>
+
+    <script src="formcode.js"></script>
+</body>
+</html>
