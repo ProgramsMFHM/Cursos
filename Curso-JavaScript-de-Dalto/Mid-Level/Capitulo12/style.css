@@ -1,0 +1,41 @@
+body{
+    font-size: 3rem;
+}
+
+.contenedorMaterias{
+    border: 5px solid black;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.materia{
+    display: flex;
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 20px 0;
+    background-color: #bbb;
+    transition: background-color 0.2s;
+}
+
+.nombreMateria{
+    padding: 20px 0;
+    flex-basis: 80%;
+}
+
+.notaMateria{
+    padding: 20px 0;
+    flex-basis: 20%;
+}
+
+.materia:hover {
+    background-color: #aaa;
+    transition: background-color 0.2s;
+}
+
+#encabezado{
+    background-color: #555;
+    color: #fff;
+}
