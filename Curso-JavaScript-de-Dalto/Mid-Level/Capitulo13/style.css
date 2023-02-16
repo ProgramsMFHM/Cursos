@@ -1,0 +1,16 @@
+body{
+    background-color: #555;
+    color: #ddd;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#aprobados{
+    color: rgb(0, 197, 0);
+    font-weight: bold;
+}
+
+#desaprobados{
+    color: rgb(247, 72, 72);
+    font-weight: bold;
+}
